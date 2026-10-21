@@ -1,0 +1,995 @@
+{
+ "cases": [
+  {
+   "fn": "bridge",
+   "args": [
+    "5",
+    "1000",
+    "1000",
+    "1000",
+    "1001"
+   ],
+   "expect": "With a 5 V excitation, the left leg sits at 2500 mV and the right leg at 2501.25 mV, so the bridge reads 1.25 mV."
+  },
+  {
+   "fn": "unknown",
+   "args": [
+    "1000",
+    "1000",
+    "1010"
+   ],
+   "expect": "With 1000 Ω and 1000 Ω on one side and a 1010 Ω known arm in balance, the unknown works out to 1010 Ω."
+  },
+  {
+   "fn": "shift",
+   "args": [
+    "5",
+    "1000",
+    "1000"
+   ],
+   "expect": "With a 5 V excitation and 1000 Ω arms, a 1 Ω shift around 1000 Ω moves the reading by 1.25 mV."
+  },
+  {
+   "fn": "bridge",
+   "args": [
+    "49.69",
+    "128244",
+    "647587",
+    "302930",
+    "610903"
+   ],
+   "expect": "With a 49.69 V excitation, the left leg sits at 41476.3 mV and the right leg at 33218.07 mV, so the bridge reads -8258.23 mV."
+  },
+  {
+   "fn": "unknown",
+   "args": [
+    "562209",
+    "666554",
+    "510222"
+   ],
+   "expect": "With 562209 Ω and 666554 Ω on one side and a 510222 Ω known arm in balance, the unknown works out to 604918.3 Ω."
+  },
+  {
+   "fn": "shift",
+   "args": [
+    "49.69",
+    "166564",
+    "168530"
+   ],
+   "expect": "With a 49.69 V excitation and 166564 Ω arms, a 1 Ω shift around 168530 Ω moves the reading by 0.07 mV."
+  },
+  {
+   "fn": "bridge",
+   "args": [
+    "46.26",
+    "301497",
+    "702490",
+    "256552",
+    "743901"
+   ],
+   "expect": "With a 46.26 V excitation, the left leg sits at 32368.14 mV and the right leg at 34397.28 mV, so the bridge reads 2029.14 mV."
+  },
+  {
+   "fn": "unknown",
+   "args": [
+    "490861",
+    "665506",
+    "708328"
+   ],
+   "expect": "With 490861 Ω and 665506 Ω on one side and a 708328 Ω known arm in balance, the unknown works out to 960346.28 Ω."
+  },
+  {
+   "fn": "shift",
+   "args": [
+    "46.26",
+    "639808",
+    "12185"
+   ],
+   "expect": "With a 46.26 V excitation and 639808 Ω arms, a 1 Ω shift around 12185 Ω moves the reading by 0.07 mV."
+  },
+  {
+   "fn": "bridge",
+   "args": [
+    "14.08",
+    "703075",
+    "387710",
+    "117167",
+    "847127"
+   ],
+   "expect": "With a 14.08 V excitation, the left leg sits at 5004.61 mV and the right leg at 12369.2 mV, so the bridge reads 7364.59 mV."
+  },
+  {
+   "fn": "unknown",
+   "args": [
+    "392135",
+    "522747",
+    "217808"
+   ],
+   "expect": "With 392135 Ω and 522747 Ω on one side and a 217808 Ω known arm in balance, the unknown works out to 290355.31 Ω."
+  },
+  {
+   "fn": "shift",
+   "args": [
+    "14.08",
+    "436478",
+    "481048"
+   ],
+   "expect": "With a 14.08 V excitation and 436478 Ω arms, a 1 Ω shift around 481048 Ω moves the reading by 0 mV."
+  },
+  {
+   "fn": "bridge",
+   "args": [
+    "91.63",
+    "871001",
+    "283412",
+    "245859",
+    "734972"
+   ],
+   "expect": "With a 91.63 V excitation, the left leg sits at 22495.45 mV and the right leg at 68661.66 mV, so the bridge reads 46166.21 mV."
+  },
+  {
+   "fn": "unknown",
+   "args": [
+    "676867",
+    "672194",
+    "80929"
+   ],
+   "expect": "With 676867 Ω and 672194 Ω on one side and a 80929 Ω known arm in balance, the unknown works out to 80370.28 Ω."
+  },
+  {
+   "fn": "shift",
+   "args": [
+    "91.63",
+    "893019",
+    "895766"
+   ],
+   "expect": "With a 91.63 V excitation and 893019 Ω arms, a 1 Ω shift around 895766 Ω moves the reading by 0.02 mV."
+  },
+  {
+   "fn": "bridge",
+   "args": [
+    "77.61",
+    "716623",
+    "957756",
+    "28727",
+    "415032"
+   ],
+   "expect": "With a 77.61 V excitation, the left leg sits at 44393.44 mV and the right leg at 72585.87 mV, so the bridge reads 28192.43 mV."
+  },
+  {
+   "fn": "unknown",
+   "args": [
+    "775524",
+    "690507",
+    "193472"
+   ],
+   "expect": "With 775524 Ω and 690507 Ω on one side and a 193472 Ω known arm in balance, the unknown works out to 172262.59 Ω."
+  },
+  {
+   "fn": "shift",
+   "args": [
+    "77.61",
+    "574692",
+    "667960"
+   ],
+   "expect": "With a 77.61 V excitation and 574692 Ω arms, a 1 Ω shift around 667960 Ω moves the reading by 0.03 mV."
+  },
+  {
+   "fn": "bridge",
+   "args": [
+    "43.3",
+    "727613",
+    "965459",
+    "509593",
+    "197682"
+   ],
+   "expect": "With a 43.3 V excitation, the left leg sits at 24691.43 mV and the right leg at 12102.27 mV, so the bridge reads -12589.16 mV."
+  },
+  {
+   "fn": "unknown",
+   "args": [
+    "788540",
+    "314095",
+    "239068"
+   ],
+   "expect": "With 788540 Ω and 314095 Ω on one side and a 239068 Ω known arm in balance, the unknown works out to 95226.7 Ω."
+  },
+  {
+   "fn": "shift",
+   "args": [
+    "43.3",
+    "608392",
+    "17156"
+   ],
+   "expect": "With a 43.3 V excitation and 608392 Ω arms, a 1 Ω shift around 17156 Ω moves the reading by 0.06 mV."
+  },
+  {
+   "fn": "bridge",
+   "args": [
+    "89.05",
+    "604542",
+    "462512",
+    "907021",
+    "911770"
+   ],
+   "expect": "With a 89.05 V excitation, the left leg sits at 38598.51 mV and the right leg at 44641.26 mV, so the bridge reads 6042.75 mV."
+  },
+  {
+   "fn": "unknown",
+   "args": [
+    "948651",
+    "776439",
+    "646170"
+   ],
+   "expect": "With 948651 Ω and 776439 Ω on one side and a 646170 Ω known arm in balance, the unknown works out to 528868.45 Ω."
+  },
+  {
+   "fn": "shift",
+   "args": [
+    "89.05",
+    "98327",
+    "947491"
+   ],
+   "expect": "With a 89.05 V excitation and 98327 Ω arms, a 1 Ω shift around 947491 Ω moves the reading by 0.01 mV."
+  },
+  {
+   "fn": "bridge",
+   "args": [
+    "48.66",
+    "308382",
+    "261156",
+    "608155",
+    "206349"
+   ],
+   "expect": "With a 48.66 V excitation, the left leg sits at 22312.56 mV and the right leg at 12327.68 mV, so the bridge reads -9984.88 mV."
+  },
+  {
+   "fn": "unknown",
+   "args": [
+    "507538",
+    "614555",
+    "122110"
+   ],
+   "expect": "With 507538 Ω and 614555 Ω on one side and a 122110 Ω known arm in balance, the unknown works out to 147857.52 Ω."
+  },
+  {
+   "fn": "shift",
+   "args": [
+    "48.66",
+    "193474",
+    "901360"
+   ],
+   "expect": "With a 48.66 V excitation and 193474 Ω arms, a 1 Ω shift around 901360 Ω moves the reading by 0.01 mV."
+  },
+  {
+   "fn": "bridge",
+   "args": [
+    "38.78",
+    "533647",
+    "701373",
+    "641672",
+    "59075"
+   ],
+   "expect": "With a 38.78 V excitation, the left leg sits at 22023.32 mV and the right leg at 3269.27 mV, so the bridge reads -18754.05 mV."
+  },
+  {
+   "fn": "unknown",
+   "args": [
+    "296920",
+    "580089",
+    "133203"
+   ],
+   "expect": "With 296920 Ω and 580089 Ω on one side and a 133203 Ω known arm in balance, the unknown works out to 260237.08 Ω."
+  },
+  {
+   "fn": "shift",
+   "args": [
+    "38.78",
+    "822282",
+    "876328"
+   ],
+   "expect": "With a 38.78 V excitation and 822282 Ω arms, a 1 Ω shift around 876328 Ω moves the reading by 0.01 mV."
+  },
+  {
+   "fn": "bridge",
+   "args": [
+    "97.35",
+    "582823",
+    "985966",
+    "881101",
+    "458126"
+   ],
+   "expect": "With a 97.35 V excitation, the left leg sits at 61183.37 mV and the right leg at 33301.72 mV, so the bridge reads -27881.65 mV."
+  },
+  {
+   "fn": "unknown",
+   "args": [
+    "817539",
+    "465290",
+    "602841"
+   ],
+   "expect": "With 817539 Ω and 465290 Ω on one side and a 602841 Ω known arm in balance, the unknown works out to 343097.87 Ω."
+  },
+  {
+   "fn": "shift",
+   "args": [
+    "97.35",
+    "951932",
+    "92713"
+   ],
+   "expect": "With a 97.35 V excitation and 951932 Ω arms, a 1 Ω shift around 92713 Ω moves the reading by 0.09 mV."
+  },
+  {
+   "fn": "bridge",
+   "args": [
+    "68.75",
+    "872180",
+    "113580",
+    "487098",
+    "34974"
+   ],
+   "expect": "With a 68.75 V excitation, the left leg sits at 7921.43 mV and the right leg at 4605.61 mV, so the bridge reads -3315.82 mV."
+  },
+  {
+   "fn": "unknown",
+   "args": [
+    "582221",
+    "252605",
+    "523566"
+   ],
+   "expect": "With 582221 Ω and 252605 Ω on one side and a 523566 Ω known arm in balance, the unknown works out to 227156.68 Ω."
+  },
+  {
+   "fn": "shift",
+   "args": [
+    "68.75",
+    "556160",
+    "371745"
+   ],
+   "expect": "With a 68.75 V excitation and 556160 Ω arms, a 1 Ω shift around 371745 Ω moves the reading by 0.04 mV."
+  },
+  {
+   "fn": "bridge",
+   "args": [
+    "77.87",
+    "117825",
+    "799030",
+    "312837",
+    "636520"
+   ],
+   "expect": "With a 77.87 V excitation, the left leg sits at 67862.93 mV and the right leg at 52209.88 mV, so the bridge reads -15653.05 mV."
+  },
+  {
+   "fn": "unknown",
+   "args": [
+    "268062",
+    "37177",
+    "742905"
+   ],
+   "expect": "With 268062 Ω and 37177 Ω on one side and a 742905 Ω known arm in balance, the unknown works out to 103032.06 Ω."
+  },
+  {
+   "fn": "shift",
+   "args": [
+    "77.87",
+    "184223",
+    "7701"
+   ],
+   "expect": "With a 77.87 V excitation and 184223 Ω arms, a 1 Ω shift around 7701 Ω moves the reading by 0.39 mV."
+  },
+  {
+   "fn": "bridge",
+   "args": [
+    "89.87",
+    "977413",
+    "52873",
+    "118148",
+    "734493"
+   ],
+   "expect": "With a 89.87 V excitation, the left leg sits at 4612.02 mV and the right leg at 77416.97 mV, so the bridge reads 72804.95 mV."
+  },
+  {
+   "fn": "unknown",
+   "args": [
+    "55161",
+    "823447",
+    "143498"
+   ],
+   "expect": "With 55161 Ω and 823447 Ω on one side and a 143498 Ω known arm in balance, the unknown works out to 2142147.49 Ω."
+  },
+  {
+   "fn": "shift",
+   "args": [
+    "89.87",
+    "477067",
+    "99353"
+   ],
+   "expect": "With a 89.87 V excitation and 477067 Ω arms, a 1 Ω shift around 99353 Ω moves the reading by 0.13 mV."
+  },
+  {
+   "fn": "bridge",
+   "args": [
+    "63.54",
+    "105700",
+    "713961",
+    "294397",
+    "817867"
+   ],
+   "expect": "With a 63.54 V excitation, the left leg sits at 55346.15 mV and the right leg at 46722.06 mV, so the bridge reads -8624.09 mV."
+  },
+  {
+   "fn": "unknown",
+   "args": [
+    "926270",
+    "917789",
+    "986732"
+   ],
+   "expect": "With 926270 Ω and 917789 Ω on one side and a 986732 Ω known arm in balance, the unknown works out to 977697.41 Ω."
+  },
+  {
+   "fn": "shift",
+   "args": [
+    "63.54",
+    "607104",
+    "446400"
+   ],
+   "expect": "With a 63.54 V excitation and 607104 Ω arms, a 1 Ω shift around 446400 Ω moves the reading by 0.03 mV."
+  },
+  {
+   "fn": "bridge",
+   "args": [
+    "70.19",
+    "338744",
+    "293041",
+    "125346",
+    "715090"
+   ],
+   "expect": "With a 70.19 V excitation, the left leg sits at 32556.25 mV and the right leg at 59721.58 mV, so the bridge reads 27165.33 mV."
+  },
+  {
+   "fn": "unknown",
+   "args": [
+    "583098",
+    "616127",
+    "505565"
+   ],
+   "expect": "With 583098 Ω and 616127 Ω on one side and a 505565 Ω known arm in balance, the unknown works out to 534202.22 Ω."
+  },
+  {
+   "fn": "shift",
+   "args": [
+    "70.19",
+    "590762",
+    "284000"
+   ],
+   "expect": "With a 70.19 V excitation and 590762 Ω arms, a 1 Ω shift around 284000 Ω moves the reading by 0.05 mV."
+  },
+  {
+   "fn": "bridge",
+   "args": [
+    "94.31",
+    "85959",
+    "396501",
+    "366856",
+    "959641"
+   ],
+   "expect": "With a 94.31 V excitation, the left leg sits at 77506.96 mV and the right leg at 68227.63 mV, so the bridge reads -9279.33 mV."
+  },
+  {
+   "fn": "unknown",
+   "args": [
+    "317272",
+    "431043",
+    "719115"
+   ],
+   "expect": "With 317272 Ω and 431043 Ω on one side and a 719115 Ω known arm in balance, the unknown works out to 976983.43 Ω."
+  },
+  {
+   "fn": "shift",
+   "args": [
+    "94.31",
+    "204463",
+    "868433"
+   ],
+   "expect": "With a 94.31 V excitation and 204463 Ω arms, a 1 Ω shift around 868433 Ω moves the reading by 0.01 mV."
+  },
+  {
+   "fn": "bridge",
+   "args": [
+    "19.25",
+    "544902",
+    "588328",
+    "432563",
+    "557290"
+   ],
+   "expect": "With a 19.25 V excitation, the left leg sits at 9993.84 mV and the right leg at 10837.8 mV, so the bridge reads 843.96 mV."
+  },
+  {
+   "fn": "unknown",
+   "args": [
+    "292291",
+    "412623",
+    "925590"
+   ],
+   "expect": "With 292291 Ω and 412623 Ω on one side and a 925590 Ω known arm in balance, the unknown works out to 1306642.09 Ω."
+  },
+  {
+   "fn": "shift",
+   "args": [
+    "19.25",
+    "730023",
+    "44180"
+   ],
+   "expect": "With a 19.25 V excitation and 730023 Ω arms, a 1 Ω shift around 44180 Ω moves the reading by 0.03 mV."
+  },
+  {
+   "fn": "bridge",
+   "args": [
+    "26.65",
+    "263481",
+    "391229",
+    "254543",
+    "744150"
+   ],
+   "expect": "With a 26.65 V excitation, the left leg sits at 15924.99 mV and the right leg at 19857.55 mV, so the bridge reads 3932.56 mV."
+  },
+  {
+   "fn": "unknown",
+   "args": [
+    "944050",
+    "630603",
+    "870694"
+   ],
+   "expect": "With 944050 Ω and 630603 Ω on one side and a 870694 Ω known arm in balance, the unknown works out to 581602.93 Ω."
+  },
+  {
+   "fn": "shift",
+   "args": [
+    "26.65",
+    "761217",
+    "607980"
+   ],
+   "expect": "With a 26.65 V excitation and 761217 Ω arms, a 1 Ω shift around 607980 Ω moves the reading by 0.01 mV."
+  },
+  {
+   "fn": "bridge",
+   "args": [
+    "94.18",
+    "847721",
+    "865451",
+    "468001",
+    "598792"
+   ],
+   "expect": "With a 94.18 V excitation, the left leg sits at 47577.34 mV and the right leg at 52863.33 mV, so the bridge reads 5285.99 mV."
+  },
+  {
+   "fn": "unknown",
+   "args": [
+    "450984",
+    "61022",
+    "398551"
+   ],
+   "expect": "With 450984 Ω and 61022 Ω on one side and a 398551 Ω known arm in balance, the unknown works out to 53927.37 Ω."
+  },
+  {
+   "fn": "shift",
+   "args": [
+    "94.18",
+    "317807",
+    "891347"
+   ],
+   "expect": "With a 94.18 V excitation and 317807 Ω arms, a 1 Ω shift around 891347 Ω moves the reading by 0.02 mV."
+  },
+  {
+   "fn": "bridge",
+   "args": [
+    "80.74",
+    "146804",
+    "378173",
+    "866398",
+    "742970"
+   ],
+   "expect": "With a 80.74 V excitation, the left leg sits at 58161.95 mV and the right leg at 37273.89 mV, so the bridge reads -20888.06 mV."
+  },
+  {
+   "fn": "unknown",
+   "args": [
+    "124528",
+    "903146",
+    "160570"
+   ],
+   "expect": "With 124528 Ω and 903146 Ω on one side and a 160570 Ω known arm in balance, the unknown works out to 1164542.54 Ω."
+  },
+  {
+   "fn": "shift",
+   "args": [
+    "80.74",
+    "805709",
+    "731077"
+   ],
+   "expect": "With a 80.74 V excitation and 805709 Ω arms, a 1 Ω shift around 731077 Ω moves the reading by 0.03 mV."
+  },
+  {
+   "fn": "bridge",
+   "args": [
+    "39.12",
+    "330030",
+    "306660",
+    "268040",
+    "651749"
+   ],
+   "expect": "With a 39.12 V excitation, the left leg sits at 18842.04 mV and the right leg at 27719.86 mV, so the bridge reads 8877.82 mV."
+  },
+  {
+   "fn": "unknown",
+   "args": [
+    "969943",
+    "270460",
+    "185773"
+   ],
+   "expect": "With 969943 Ω and 270460 Ω on one side and a 185773 Ω known arm in balance, the unknown works out to 51801.15 Ω."
+  },
+  {
+   "fn": "shift",
+   "args": [
+    "39.12",
+    "778118",
+    "803042"
+   ],
+   "expect": "With a 39.12 V excitation and 778118 Ω arms, a 1 Ω shift around 803042 Ω moves the reading by 0.01 mV."
+  },
+  {
+   "fn": "bridge",
+   "args": [
+    "84.5",
+    "400617",
+    "731684",
+    "562794",
+    "443275"
+   ],
+   "expect": "With a 84.5 V excitation, the left leg sits at 54603.24 mV and the right leg at 37230.78 mV, so the bridge reads -17372.46 mV."
+  },
+  {
+   "fn": "unknown",
+   "args": [
+    "561226",
+    "747975",
+    "138517"
+   ],
+   "expect": "With 561226 Ω and 747975 Ω on one side and a 138517 Ω known arm in balance, the unknown works out to 184608.79 Ω."
+  },
+  {
+   "fn": "shift",
+   "args": [
+    "84.5",
+    "420521",
+    "358712"
+   ],
+   "expect": "With a 84.5 V excitation and 420521 Ω arms, a 1 Ω shift around 358712 Ω moves the reading by 0.06 mV."
+  },
+  {
+   "fn": "bridge",
+   "args": [
+    "79.38",
+    "413361",
+    "632964",
+    "228644",
+    "365138"
+   ],
+   "expect": "With a 79.38 V excitation, the left leg sits at 48020.15 mV and the right leg at 48813.63 mV, so the bridge reads 793.48 mV."
+  },
+  {
+   "fn": "unknown",
+   "args": [
+    "937225",
+    "673713",
+    "199152"
+   ],
+   "expect": "With 937225 Ω and 673713 Ω on one side and a 199152 Ω known arm in balance, the unknown works out to 143158.04 Ω."
+  },
+  {
+   "fn": "shift",
+   "args": [
+    "79.38",
+    "30079",
+    "53834"
+   ],
+   "expect": "With a 79.38 V excitation and 30079 Ω arms, a 1 Ω shift around 53834 Ω moves the reading by 0.34 mV."
+  },
+  {
+   "fn": "bridge",
+   "args": [
+    "37.17",
+    "92425",
+    "866362",
+    "427365",
+    "935987"
+   ],
+   "expect": "With a 37.17 V excitation, the left leg sits at 33586.89 mV and the right leg at 25518.46 mV, so the bridge reads -8068.43 mV."
+  },
+  {
+   "fn": "unknown",
+   "args": [
+    "997357",
+    "209136",
+    "241347"
+   ],
+   "expect": "With 997357 Ω and 209136 Ω on one side and a 241347 Ω known arm in balance, the unknown works out to 50608.1 Ω."
+  },
+  {
+   "fn": "shift",
+   "args": [
+    "37.17",
+    "370513",
+    "943204"
+   ],
+   "expect": "With a 37.17 V excitation and 370513 Ω arms, a 1 Ω shift around 943204 Ω moves the reading by 0.01 mV."
+  },
+  {
+   "fn": "bridge",
+   "args": [
+    "66.96",
+    "92178",
+    "949594",
+    "499523",
+    "886988"
+   ],
+   "expect": "With a 66.96 V excitation, the left leg sits at 61035.25 mV and the right leg at 42836.09 mV, so the bridge reads -18199.16 mV."
+  },
+  {
+   "fn": "unknown",
+   "args": [
+    "250401",
+    "671556",
+    "772645"
+   ],
+   "expect": "With 250401 Ω and 671556 Ω on one side and a 772645 Ω known arm in balance, the unknown works out to 2072173.78 Ω."
+  },
+  {
+   "fn": "shift",
+   "args": [
+    "66.96",
+    "516893",
+    "273431"
+   ],
+   "expect": "With a 66.96 V excitation and 516893 Ω arms, a 1 Ω shift around 273431 Ω moves the reading by 0.06 mV."
+  },
+  {
+   "fn": "bridge",
+   "args": [
+    "51.86",
+    "487438",
+    "852121",
+    "27150",
+    "145338"
+   ],
+   "expect": "With a 51.86 V excitation, the left leg sits at 32989.21 mV and the right leg at 43697.12 mV, so the bridge reads 10707.91 mV."
+  },
+  {
+   "fn": "unknown",
+   "args": [
+    "160915",
+    "307058",
+    "319644"
+   ],
+   "expect": "With 160915 Ω and 307058 Ω on one side and a 319644 Ω known arm in balance, the unknown works out to 609944.67 Ω."
+  },
+  {
+   "fn": "shift",
+   "args": [
+    "51.86",
+    "726108",
+    "657724"
+   ],
+   "expect": "With a 51.86 V excitation and 726108 Ω arms, a 1 Ω shift around 657724 Ω moves the reading by 0.02 mV."
+  },
+  {
+   "fn": "bridge",
+   "args": [
+    "25.15",
+    "600834",
+    "771596",
+    "698474",
+    "25365"
+   ],
+   "expect": "With a 25.15 V excitation, the left leg sits at 14139.62 mV and the right leg at 881.31 mV, so the bridge reads -13258.31 mV."
+  },
+  {
+   "fn": "unknown",
+   "args": [
+    "629556",
+    "330430",
+    "225804"
+   ],
+   "expect": "With 629556 Ω and 330430 Ω on one side and a 225804 Ω known arm in balance, the unknown works out to 118515.93 Ω."
+  },
+  {
+   "fn": "shift",
+   "args": [
+    "25.15",
+    "324041",
+    "354910"
+   ],
+   "expect": "With a 25.15 V excitation and 324041 Ω arms, a 1 Ω shift around 354910 Ω moves the reading by 0.02 mV."
+  },
+  {
+   "fn": "bridge",
+   "args": [
+    "31.01",
+    "93795",
+    "366967",
+    "619257",
+    "708819"
+   ],
+   "expect": "With a 31.01 V excitation, the left leg sits at 24697.45 mV and the right leg at 16550.62 mV, so the bridge reads -8146.83 mV."
+  },
+  {
+   "fn": "unknown",
+   "args": [
+    "926719",
+    "970137",
+    "516257"
+   ],
+   "expect": "With 926719 Ω and 970137 Ω on one side and a 516257 Ω known arm in balance, the unknown works out to 540444.32 Ω."
+  },
+  {
+   "fn": "shift",
+   "args": [
+    "31.01",
+    "366623",
+    "888251"
+   ],
+   "expect": "With a 31.01 V excitation and 366623 Ω arms, a 1 Ω shift around 888251 Ω moves the reading by 0.01 mV."
+  },
+  {
+   "fn": "bridge",
+   "args": [
+    "72.11",
+    "805572",
+    "58833",
+    "851476",
+    "687485"
+   ],
+   "expect": "With a 72.11 V excitation, the left leg sits at 4907.94 mV and the right leg at 32213 mV, so the bridge reads 27305.06 mV."
+  },
+  {
+   "fn": "unknown",
+   "args": [
+    "835395",
+    "513585",
+    "549597"
+   ],
+   "expect": "With 835395 Ω and 513585 Ω on one side and a 549597 Ω known arm in balance, the unknown works out to 337881.81 Ω."
+  },
+  {
+   "fn": "shift",
+   "args": [
+    "72.11",
+    "377258",
+    "693471"
+   ],
+   "expect": "With a 72.11 V excitation and 377258 Ω arms, a 1 Ω shift around 693471 Ω moves the reading by 0.03 mV."
+  },
+  {
+   "fn": "bridge",
+   "args": [
+    "11.97",
+    "350765",
+    "148016",
+    "783179",
+    "973717"
+   ],
+   "expect": "With a 11.97 V excitation, the left leg sits at 3552.16 mV and the right leg at 6634.08 mV, so the bridge reads 3081.92 mV."
+  },
+  {
+   "fn": "unknown",
+   "args": [
+    "169349",
+    "285476",
+    "857305"
+   ],
+   "expect": "With 169349 Ω and 285476 Ω on one side and a 857305 Ω known arm in balance, the unknown works out to 1445181.27 Ω."
+  },
+  {
+   "fn": "shift",
+   "args": [
+    "11.97",
+    "495338",
+    "614069"
+   ],
+   "expect": "With a 11.97 V excitation and 495338 Ω arms, a 1 Ω shift around 614069 Ω moves the reading by 0 mV."
+  }
+ ],
+ "errors": [
+  [
+   "bridge",
+   [
+    "0",
+    "1000",
+    "1000",
+    "1000",
+    "1000"
+   ]
+  ],
+  [
+   "bridge",
+   [
+    "5",
+    "0",
+    "1000",
+    "1000",
+    "1000"
+   ]
+  ],
+  [
+   "bridge",
+   [
+    "5",
+    "1000001",
+    "1000",
+    "1000",
+    "1000"
+   ]
+  ],
+  [
+   "bridge",
+   [
+    "5",
+    "1.5",
+    "1000",
+    "1000",
+    "1000"
+   ]
+  ],
+  [
+   "unknown",
+   [
+    "0",
+    "1000",
+    "1010"
+   ]
+  ],
+  [
+   "unknown",
+   [
+    "1000",
+    "1000",
+    "0"
+   ]
+  ],
+  [
+   "shift",
+   [
+    "0",
+    "1000",
+    "1000"
+   ]
+  ],
+  [
+   "shift",
+   [
+    "5",
+    "0",
+    "1000"
+   ]
+  ],
+  [
+   "shift",
+   [
+    "5",
+    "1000",
+    "0"
+   ]
+  ],
+  [
+   "bridge",
+   [
+    "100.001",
+    "1000",
+    "1000",
+    "1000",
+    "1000"
+   ]
+  ]
+ ]
+}
